@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin>
+
+    <!-- Extension information -->
+    <id>my.extension</id>
+    <extends>weblaf.web.skin</extends>
+
+    <!-- Decorated frame -->
+    <style type="rootpane" id="root" extends="frame-decorated">
+        <painter>
+            <decorations>
+                <decoration>
+                    <WebShape round="0" />
+                    <WebShadow type="outer" opacity="0.3" width="0" />
+                    <LineBorder color="20,20,20" />
+                    <ColorBackground color="168,168,168,200" />
+                </decoration>
+            </decorations>
+        </painter>
+    </style>
+
+</skin>

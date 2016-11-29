@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin>
+
+    <!-- Extension information -->
+    <id>my.extension</id>
+    <extends>weblaf.dark.skin</extends>
+
+
+    <!-- Decorated frame -->
+    <style type="rootpane" id="mainframe" extends="frame-decorated">
+        <painter>
+            <decorations>
+                <decoration>
+                    <WebShape round="0" />
+                    <WebShadow type="outer" opacity="0.2" width="0" />
+                    <LineBorder color="168,168,168, 200" thickness="10" />
+                    <ColorBackground color="168,168,168,200" />
+                </decoration>
+            </decorations>
+        </painter>
+        
+         <!-- Buttons panel -->
+        <style type="panel" id="buttons">
+
+            <!-- Close button -->
+            <style type="button" id="close">
+                <painter>
+                    <decorations>
+                        <decoration>
+                            <GradientBackground>
+                                <color>140,50,50</color>
+                                <color>110,50,50</color>
+                            </GradientBackground>
+                        </decoration>
+                    </decorations>
+                </painter>
+            </style>
+            <!-- Control buttons -->
+	        <style type="button" id="control">
+	            <painter>
+	                <decorations>
+	                    <decoration>
+	                        <GradientBackground>
+	                            <color>50,70,130</color>
+	                            <color>50,70,90</color>
+	                        </GradientBackground>
+	                    </decoration>
+	                </decorations>
+	            </painter>
+	        </style>
+        </style>
+    </style>
+    
+</skin>
